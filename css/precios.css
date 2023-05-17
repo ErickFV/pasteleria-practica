@@ -1,0 +1,25 @@
+.precio-contenedor{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+
+.precio-contenedor img{
+    width: 25%;
+    float: right;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover {
+    font-weight: bold;
+  }

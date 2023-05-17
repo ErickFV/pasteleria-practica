@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+
+header {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  background: #d43e9f;
+}
+
+nav {
+  width: 100%;
+  height: 30px auto;
+  background: #e0dad9;
+}
+
+.logo{
+  width: 110px;
+  height: 110px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+section {
+  width: 700px;
+  background: #d43e9f;
+}
+
+article {
+  margin: 20px auto;
+  width: 600px;
+  height: auto;
+  background: #a1106e;
+}
+
+aside {
+  width: 250px;
+  height: 500px;
+  margin-top: 10px;
+  margin-right: 100px;
+  background: #b6b3b2;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background: #a1106e;
+}
+
+aside {
+  width: 350px;
+  height: 500px;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 10px;
+  background: #b6b3b2;
+  float: right;
+}
+
+section {
+  width: 700px;
+  height: auto;
+  background: #d43e9f;
+  float: left;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background: #a1106e;
+  clear: both;
+  text-align: center;
+  padding-top: 35px;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background: #d43e9f;
+}
+nav {
+  width: 100%;
+  height: 30px auto;
+  background: #e0dad9;
+}
+section {
+  width: 65%;
+  height: auto;
+  background: #d43e9f;
+  float: left;
+}
+.navegacion {
+  width: 80%;
+  float: right;
+  margin: 30px auto;
+  background: #fa63c5;
+}
+
+.navegacion ul {
+  list-style: none;
+}
+
+.navegacion ul li{
+  display: inline-block;
+  margin: 10px;
+}
+
+.menu > li {
+  position: relative;
+  display: inline-block;
+}
+.submenu {
+  position: absolute;
+  background: #b6b3b2;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+.menu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  z-index: 999;
+}
+.menu > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: #f4e960;
+  font-family: "Arial";
+  text-decoration: none;
+}
+.submenu li a {
+  display: block;
+  padding: 15px;
+  color: #0a0a09b7;
+  font-family: "Arial";
+  text-decoration: none;
+}
+.submenu li a:hover {
+  background: #fa63c5;
+}
+.menu > li > a:hover {
+  background: #b6b3b2;
+}
+
+.pasteles-contenedor{
+  height: 300px;
+  padding: 10px;
+}
+
+.pasteles-contenedor img{
+  width: 80%;
+  height: 70%;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+aside img{
+  margin: 15px;
+  width: 90%;
+  height: 350px;
+}

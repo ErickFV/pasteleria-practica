@@ -1,0 +1,9 @@
+.promocional-contenedor{
+    text-align: center;
+    padding: 15px;
+}
+
+.promocional-contenedor h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}

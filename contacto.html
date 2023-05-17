@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,maximum-scale=1"
+    />
+    <meta content="Nombre del Autor" name="author" />
+    <meta
+      content="Descripcion de los productos o servicios que ofree sus empresa 
+o negocio"
+      name="description"
+    />
+    <meta
+      content="Palabras, clave, de los, productos o servicios, que ofrece, tu 
+empresa o negocio, separado por comas"
+      name="keywords"
+    />
+    <title>Pasteleria la Cereza</title>
+    <link rel="stylesheet" href="./css/estilo1.css" />
+    <link rel="stylesheet" href="./css/contacto.css" />
+    <link
+      rel="stylesheet"
+      href="./fontello-156a277d/css/fontello-embedded.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>PASTELERIA LA CEREZA</h1>
+      <h2>Su pastelería de confianza</h2>
+    </header>
+    <img src="./assets/logo.jpg" class="logo" />
+    <nav class="navegacion">
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="somos.html">Quienes Somos</a></li>
+        <li>
+          <a href="">Servicios</a>
+          <ul class="submenu">
+            <li><a href="index.html#pasteles">Diseños</a></li>
+            <li><a href="precios.html">Precios</a></li>
+            <li><a href="promocional.html">Promocional</a></li>
+          </ul>
+        </li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <section class="contacto-contenedor">
+      <h1>Contacto</h1>
+      //Examen//
+      
+      <form action="/enviar" method="POST">
+        <label for="nombre">Escriba su nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required />
+        <br />
+      
+        <label for="email">Escriba su correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        
+
+        <label>Marcar el tipo de evento:</label>
+        <br />
+        <input type="radio" name="evento1" value="Bautizo" />
+        <label for="pastel1">Bautizo</label>
+        <br />
+        <input type="radio" name="evento2" value="Boda" />
+        <label for="pastel2">Boda</label>
+        <br />
+        <input type="radio" name="evento3" value="Cumpleaños" />
+        <label for="pastel3">Cumpleaños</label>
+        <br />
+        <input type="radio" name="evento4" value="infantil" />
+        <label for="pastel4">Infantil</label>
+        <br />
+        <input type="radio" name="evento5" value="Otro evento" />
+        <label for="pastel5">Otro evento</label>
+        <br /
+        <label for="fecha">Indique la fecha y hora del evento:</label>
+        <br />
+        <input type="datetime-local" id="fechaHora" name="fechaHora" required />
+        <br />
+
+        <label for="color">Seleccione el color de su pastel:</label>
+        <br />
+        <input type="color" id="color" name="color" required />
+        <br />
+
+        <label for="mensaje">Describa las características de su pastel:</label>
+        <br />
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        <br />
+
+        <label for="imagen"
+          >Adjunte la imagen para imprimir en el pastel:</label
+        >
+        <br />
+        <input
+          type="file"
+          id="imagen"
+          name="imagen"
+          accept="image/*"
+          required
+        />
+        <br />
+        <br />
+
+        <input type="submit" value="Enviar" />
+      </form>
+      <form action="#" method="post">
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <div>
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <h4>
+        Nos encontramos en 5 oriente 208-105, en centro histórico
+        <i class="icon-globe"></i>www.pasteleria_la_cereza.com. Pedidos al
+        <i class="icon-phone"></i>2665555, <i class="icon-phone"></i>2665550
+      </h4>
+    </footer>
+  </body>
+</html>

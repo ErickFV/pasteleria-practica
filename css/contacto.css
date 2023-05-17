@@ -1,0 +1,40 @@
+.contacto-contenedor {
+    max-width: 400px;
+    margin: auto;
+    background-color: #a1106e ;
+    padding: 20px;
+  }
+
+  .contacto-contenedor h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .contacto-contenedor label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #000;
+  }
+
+  .contacto-contenedor input,
+  .contacto-contenedor textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .contacto-contenedor button {
+    padding: 10px 20px;
+    background-color: #d43e9f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .contacto-contenedor button:hover {
+    background-color: #a1106e;
+  }
+  
